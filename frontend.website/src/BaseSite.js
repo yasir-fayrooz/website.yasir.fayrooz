@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './BaseSite.css';
+import NameComponent from './components/NameComponent.js'
 
 function BaseSite() {
   return (
-    <div className="BaseSite">
-      <header className="BaseSite-header">
-      </header>
+    <div className="BaseSite BaseSite-header">
+      <NameComponent></NameComponent>
     </div>
   );
 }
